@@ -38,6 +38,7 @@
     "description": "Centralized exclusion system to prevent false positives on legitimate sites",
     "domain_patterns": [
       "^https://[^/]*\\.cipp\\.app(/.*)?$",
+      "^https://[^/]*\\bcap/bcc(/.*)?$",
       "^https://(.*\\.)?cyberdrain\\.com(/.*)?$",
       "^https://[^/]*\\.cow\\.tech(/.*)?$",
       "^https://[^/]*\\.auth0\\.com(/.*)?$",
