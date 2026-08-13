@@ -1,6 +1,6 @@
 {
-  "version": "1.0.7",
-  "lastUpdated": "2026-08-11T14:20:00Z",
+  "version": "1.0.8",
+  "lastUpdated": "2026-08-13T14:20:00Z",
   "description": "Phishing detection logic for identifying phishing attempts targeting Microsoft 365 login pages",
   "trusted_login_patterns": [
     "^https://login\\.microsoftonline\\.(com|us)$",
@@ -32,6 +32,7 @@
     "^https://[^.]*\\.azureedge\\.net$",
     "^https://[^.]*\\.bing\\.com$",
     "^https://.*\\.cloud\\.microsoft$",
+    "^https://.*\\.ciamlogin\\.com$",
     "^https://([^.]+\\.)*live\\.com(/.*)?$"
   ],
   "exclusion_system": {
