@@ -32,7 +32,7 @@
     "^https://[^.]*\\.azureedge\\.net$",
     "^https://[^.]*\\.bing\\.com$",
     "^https://.*\\.cloud\\.microsoft$",
-    "^https://.*\\.ciamlogin\\.com$",
+    "^https://[^.]*\\.ciamlogin\\.com$",
     "^https://([^.]+\\.)*live\\.com(/.*)?$"
   ],
   "exclusion_system": {
