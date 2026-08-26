@@ -1,5 +1,5 @@
 {
-  "version": "1.0.8",
+  "version": "1.0.7",
   "lastUpdated": "2026-08-13T14:20:00Z",
   "description": "Phishing detection logic for identifying phishing attempts targeting Microsoft 365 login pages",
   "trusted_login_patterns": [
@@ -8,6 +8,7 @@
     "^https://login\\.microsoft\\.net$",
     "^https://login\\.windows\\.net$",
     "^https://login\\.partner\\.microsoftonline\\.cn$",
+    "^https://[^.]*\\.copilot\\.com$",
     "^https://login\\.live\\.com$"
   ],
   "microsoft_domain_patterns": [
