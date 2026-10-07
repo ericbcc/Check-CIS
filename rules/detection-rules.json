@@ -24,6 +24,7 @@
     "^https://[^.]*\\.azure\\.com$",
     "^https://[^.]*\\.azurewebsites\\.net$",
     "^https://[^.]*\\.msauth\\.net$",
+    "^https://[^.]*\\bccforms-baldwincountyalgov.msappproxy\\.net$",
     "^https://[^.]*\\.msftauth\\.net$",
     "^https://[^.]*\\.msftauthimages\\.net$",
     "^https://[^.]*\\.msauthimages\\.net$",
