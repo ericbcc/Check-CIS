@@ -1,5 +1,5 @@
 {
-  "version": "1.0.8",
+  "version": "1.3.8",
   "lastUpdated": "2026-08-13T14:20:00Z",
   "description": "Phishing detection logic for identifying phishing attempts targeting Microsoft 365 login pages",
   "trusted_login_patterns": [
@@ -25,6 +25,7 @@
     "^https://[^.]*\\.azurewebsites\\.net$",
     "^https://[^.]*\\.msauth\\.net$",
     "^https://[^.]*\\bccforms-baldwincountyalgov.msappproxy\\.net$",
+    "^https://[^.]*\\bccforms.internal.co.baldwin.al\\.us$",
     "^https://[^.]*\\.msftauth\\.net$",
     "^https://[^.]*\\.msftauthimages\\.net$",
     "^https://[^.]*\\.msauthimages\\.net$",
